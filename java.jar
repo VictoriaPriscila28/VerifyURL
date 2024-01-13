@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String url = scanner.nextLine(); // Lê a entrada do usuário
+
+        String resultado;
+        if (url.startsWith("https://")) {
+          System.out.println("URL segura");
+       // TODO: Atribua para a variável resultado a mensagem adequada:
+
+
+      //TODO: Implemente a condição necessária para a verificação da URL:
+        } else if (url.startsWith("http://")) {
+          System.out.println("URL nao segura");
+       // TODO: Atribua para a variável resultado a mensagem adequada:
+
+        } else {
+          System.out.println("Formato invalido");
+        }
+    }
+}
